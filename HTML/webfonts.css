@@ -1,0 +1,50 @@
+/* General setup */
+
+@font-face {
+    font-family: 'grand_hotelregular';
+    src: url(fonts/grandhotel-regular-webfont.woff2) format('woff2'),
+         url('grandhotel-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'teenregular';
+    src: url(fonts/teen-webfont.woff2) format('woff2'),
+         url(fonts/teen-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html {
+    font-size: 10px;
+    margin: 0;
+    font-family: sans-serif;
+}
+  
+body {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+  
+  /* Typography */
+h1 {
+    font-size: 3.2rem;
+    font-family: 'grand_hotelregular';
+    
+}
+  
+h2 {
+    font-size: 2.4rem;
+    font-family: 'grand_hotelregular';
+}
+  
+p {
+    font-size: 1.4rem;
+    line-height: 1.6;
+    word-spacing: 0.6rem;
+    font-family: 'teenregular';
+}
